@@ -15,7 +15,7 @@ import {
   getSansBold,
   getSansRegularItalic,
   getSansBoldItalic,
-} from '@bbc/psammead-styles/font-styles';
+} from './font-styles';
 import notes from '../README.md';
 import * as colours from './colours';
 import { grid } from './detection';
