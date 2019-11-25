@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import InlineLink from '@bbc/psammead-inline-link';
 import Img from '@bbc/psammead-image';
 import { arrayOf, shape, string } from 'prop-types';
@@ -170,6 +170,8 @@ const OnwardJourneys = ({
     color: ${C_EBON};
     margin: 0 ${GEL_SPACING_DBL};
   `;
+
+  const tabState = useRef(0);
 
   return (
     <OnwardJourneysSection role="region" aria-labelledby={labelId}>
